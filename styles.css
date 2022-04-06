@@ -1,0 +1,43 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+.grid {
+    border: 1px solid black;
+    height: 360px;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+
+}
+
+.ending-block{
+    background-color: red;
+}
+
+.starting-block{
+    background-color: blueviolet;
+}
+
+.l1, .l2, .l3  {
+    background-color: brown;
+}
+ .l4, .l5 {
+     background-color: blue;
+ }
+
+ .c1 {
+    background-color: black;
+}
+
+.c2, .c3 {
+    background-color: orange;
+}
+
+.frog {
+    background-color: green;
+}
